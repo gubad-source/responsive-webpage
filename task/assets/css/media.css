@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+ }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+
+}
+
+ .col-1{
+    width:calc(100%/12*1) ; 
+ }
+ .col-2{
+  width:calc(100%/12*2) ; 
+ }
+ .col-3{
+  width:calc(100%/12*3) ; 
+ }
+ .col-4{
+  width:calc(100%/12*4) ; 
+ }
+ .col-5{
+  width:calc(100%/12*5) ; 
+ }
+ .col-6{
+  width:50%; 
+ }
+ .col-7{
+  width:calc(100%/1*7) ; 
+ }
+ .col-8{
+  width:calc(100%/12*8) ; 
+ }
+ .col-9{
+  width:calc(100%/12*9) ; 
+ }
+ .col-10{
+  width:calc(100%/12*10) ; 
+ }
+ .col-11{
+  width:calc(100%/12*11 ); 
+ }
+ .col-12{
+  width:100%;
+ }
+
+ @media only screen and (max-width:650px){
+  
+    .col-md-1{
+       width:calc(100%/12*1) ; 
+    }
+    .col-md-2{
+     width:calc(100%/12*2) ; 
+    }
+    .col-md-3{
+     width:calc(100%/12*3) ; 
+    }
+    .col-md-4{
+     width:calc(100%/12*4) ; 
+    }
+    .col-md-5{
+     width:calc(100%/12*5) ; 
+    }
+    .col-md-6{
+     width:50%; 
+    }
+    .col-md-7{
+     width:calc(100%/1*7) ; 
+    }
+    .col-md-8{
+     width:calc(100%/12*8) ; 
+    }
+    .col-md-9{
+     width:calc(100%/12*9) ; 
+    }
+    .col-md-10{
+     width:calc(100%/12*10) ; 
+    }
+    .col-md-11{
+     width:calc(100%/12*11 ); 
+    }
+    .col-md-12{
+     width:100%;
+    }
+   .disapear{
+      display: none;
+   }
+   .hamburger{
+      display: block;
+   }
+   .xx-contact{
+      display: flex;
+     flex-direction: column;
+    }
+    .x-contact{
+      display: flex;
+      flex-direction: column;
+    }
+    .city-list {
+       width: 100%;
+    }
+    .city{
+       margin-bottom: 50px;
+    }
+  .x-contact .contact-email input{
+     width: 100%;
+  }
+
+  .container{
+     width: 100%;
+  }
+
+  .row{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.band-portrait-image{
+   text-align: center;
+}
+
+.city-image{
+   text-align: center;
+}
+
+.contact-name{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-name input{
+   width: 100%;
+}
+
+.contact-info{
+   padding:10px 0;
+}
+ }
