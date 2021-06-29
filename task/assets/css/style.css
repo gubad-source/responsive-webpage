@@ -56,6 +56,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
 body {
   height: 2000px;
   font-family: sans-serif;
@@ -70,6 +74,7 @@ body {
 nav{
   position:sticky;
   top: 0;
+  z-index: 1;
 }
 
 .navbar {
@@ -181,9 +186,7 @@ color: gray;
 .x-contact{
   display: flex;
 }
-/* .x-contact :first-child.col-3{
-  width: 250px;
-} */
+
 .contact-message{
   display: flex;
   flex-direction: column;

@@ -1,14 +1,5 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
- }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: center; */
 
-}
+
 
  .col-1{
     width:calc(100%/12*1) ; 
@@ -113,13 +104,13 @@
      width: 100%;
   }
 
-  .row{
+  /* .row{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
 
-}
+} */
 
 .band-portrait-image{
    text-align: center;
@@ -140,5 +131,8 @@
 
 .contact-info{
    padding:10px 0;
+}
+.x-contact{
+   width: 100%;
 }
  }
