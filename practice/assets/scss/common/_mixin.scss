@@ -1,7 +1,0 @@
-@mixin rotation($value:25deg) {
-    transform: rotate($value);
-}
-@mixin interpolation($val1,$val2){
-    #{$val1}:100px;
-    #{$val2}:blue;
-}
