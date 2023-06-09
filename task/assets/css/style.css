@@ -46,9 +46,9 @@
   margin-top: 15px;
   border: none;
 }
-.container{
+.container {
   width: 800px;
-  margin:  auto;
+  margin: auto;
 }
 
 * {
@@ -56,7 +56,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -71,8 +71,8 @@ body {
   cursor: pointer;
 }
 
-nav{
-  position:sticky;
+nav {
+  position: sticky;
   top: 0;
   z-index: 1;
 }
@@ -93,13 +93,13 @@ nav{
   padding-left: 30px;
 }
 .navbar ul li {
-    padding-left: 20px;
+  padding-left: 20px;
   padding-top: 20px;
   cursor: pointer;
 }
 .navbar ul li:hover {
-    background-color: gray;
-  }
+  background-color: gray;
+}
 .navbar ul li {
   padding-top: 20px;
   padding-right: 30px;
@@ -134,8 +134,8 @@ nav{
 
 /* map */
 
-.map img{
-    width: 100%;
+.map img {
+  width: 100%;
 }
 
 /* social */
@@ -149,50 +149,48 @@ nav{
   text-align: center;
 }
 
-
-
-.contact-title{
+.contact-title {
   display: flex;
- align-items: center;
+  align-items: center;
   flex-direction: column;
   line-height: 50px;
 }
-.contact-title h1{
+.contact-title h1 {
   letter-spacing: 10px;
   font-size: xx-large;
 }
-.contact-title h5{
-color: gray;
+.contact-title h5 {
+  color: gray;
 }
-.contact-info .map,.contact-info .phone,.contact-info .envelop{
+.contact-info .map,
+.contact-info .phone,
+.contact-info .envelop {
   display: flex;
   margin-top: 15px;
 }
-.contact-info h1{
+.contact-info h1 {
   margin: 5px;
 }
-.contact-info h2{
+.contact-info h2 {
   font-size: 20px;
 }
 
-.xx-contact{
+.xx-contact {
   display: flex;
- 
 }
-.xx-contact input{
- height: 50px;
- padding: 20px;
+.xx-contact input {
+  height: 50px;
+  padding: 17px;
 }
-.x-contact{
+.x-contact {
   display: flex;
 }
 
-.contact-message{
+.contact-message {
   display: flex;
   flex-direction: column;
 }
 
-#contact{
+#contact {
   padding: 20px 0;
 }
-
