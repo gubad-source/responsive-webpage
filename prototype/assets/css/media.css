@@ -1,0 +1,60 @@
+@media only screen and (max-width: 650px) {
+  .disapear {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .xx-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .x-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .city-list {
+    width: 100%;
+  }
+  .city {
+    margin-bottom: 50px;
+  }
+  .x-contact .contact-email input {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .band-portrait-image {
+    text-align: center;
+  }
+
+  .city-image {
+    text-align: center;
+  }
+
+  .contact-name {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .contact-name input {
+    width: 100%;
+  }
+
+  .contact-info {
+    padding: 10px 0;
+  }
+  .x-contact {
+    width: 100%;
+  }
+  /* contact.html */
+  #connection .connection__body {
+    flex-direction: column;
+  }
+  #connection .connection__body .connection__body__frame {
+    margin: 2rem 0 0;
+  }
+}

@@ -56,10 +56,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 body {
   height: 2000px;
   font-family: sans-serif;
@@ -128,6 +125,14 @@ nav {
 }
 
 /* portrait */
+#photographer {
+  padding: 0 0 4rem;
+}
+.band-portrait {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .portrait img {
   width: 100%;
 }
@@ -186,6 +191,11 @@ nav {
   display: flex;
 }
 
+.contact-name input,
+.contact-email input {
+  width: 100%;
+}
+
 .contact-message {
   display: flex;
   flex-direction: column;
@@ -193,4 +203,55 @@ nav {
 
 #contact {
   padding: 20px 0;
+}
+/* contact.html */
+#connection {
+}
+#connection .connection__title {
+}
+#connection .connection__title h1 {
+}
+#connection .connection__body {
+  display: flex;
+}
+#connection .connection__body .connection__body__frame {
+  border: 1px solid;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 2rem 0;
+  margin: 0 2rem;
+}
+#connection .connection__body .connection__body__frame .connection__body__icon {
+}
+#connection
+  .connection__body
+  .connection__body__frame
+  .connection__body__icon
+  i {
+  font-size: 4rem;
+}
+#connection .connection__body .connection__body__frame .connection__body__info {
+}
+#connection
+  .connection__body
+  .connection__body__frame
+  .connection__body__info
+  h3 {
+}
+#connection
+  .connection__body
+  .connection__body__frame
+  .connection__body__info
+  h4 {
+}
+#connection
+  .connection__body
+  .connection__body__frame
+  .connection__body__button {
+}
+#connection
+  .connection__body
+  .connection__body__frame
+  .connection__body__button
+  button {
 }
