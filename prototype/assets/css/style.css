@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 #cities {
   background-color: black;
   font-family: sans-serif;
@@ -221,6 +224,7 @@ nav {
   margin: 0 2rem;
 }
 #connection .connection__body .connection__body__frame .connection__body__icon {
+  color: #75975e;
 }
 #connection
   .connection__body
@@ -243,6 +247,7 @@ nav {
   .connection__body__info
   h4 {
   font-size: 1rem;
+  line-height: 2rem;
 }
 #connection
   .connection__body
@@ -275,4 +280,58 @@ nav {
   height: 100vh;
   width: 100%;
   font-family: "FontAwesome";
+}
+#faq {
+}
+#faq .accordion {
+  margin: 4rem 0;
+}
+#faq .accordion .accordion-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2rem;
+}
+#faq .accordion .accordion-title h1 {
+  font-family: "FontAwesome";
+}
+#faq .accordion .accordion-title i {
+  font-size: 3rem;
+  color: rebeccapurple;
+}
+#faq .accordion .content-box {
+  margin: 0 0 1rem;
+}
+#faq .accordion .content-box .label {
+  background: #232121bf;
+  color: white;
+  font-family: "FontAwesome";
+  padding: 1rem 0.4rem;
+  border-radius: 0.6rem;
+  position: relative;
+}
+#faq .accordion .content-box .label::before {
+  content: "+";
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-60%);
+}
+#faq .accordion .content-box.active .label::before {
+  content: "-";
+  font-size: 3rem;
+}
+#faq .accordion .content-box .content {
+  font-family: fantasy;
+  background: aliceblue;
+  height: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  transition: 0.5s all ease;
+}
+#faq .accordion .content-box.active .content {
+  font-family: fantasy;
+  background: aliceblue;
+  padding: 0.4rem;
+  height: auto;
 }
