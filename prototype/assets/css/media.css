@@ -57,10 +57,14 @@
   #connection .connection__body .connection__body__frame {
     margin: 2rem 0 0;
   }
-  #dua-lipa{
+  #dua-lipa {
     background-size: 100% 30%;
   }
-  #dua-lipa h1{
+  #dua-lipa h1 {
     height: 30vh;
+  }
+  .slider .next,
+  .slider .previous {
+    top: 25%;
   }
 }

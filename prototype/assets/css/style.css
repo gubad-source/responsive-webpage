@@ -74,7 +74,7 @@ body {
 nav {
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 3;
 }
 
 .navbar {
@@ -334,4 +334,40 @@ nav {
   background: aliceblue;
   padding: 0.4rem;
   height: auto;
+}
+.slider {
+  position: relative;
+}
+
+.slider .items {
+  position: relative;
+  height: 360px;
+}
+
+.slider .items .item {
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.slider .items .item.active {
+  z-index: 1;
+  opacity: 1;
+}
+
+.slider .next,
+.slider .previous {
+  position: absolute;
+  top: 60%;
+  z-index: 2;
+  font-size: 40px;
+  color: white;
+  left: 20px;
+  cursor: pointer;
+}
+
+.slider .next {
+  left: initial;
+  right: 20px;
 }
