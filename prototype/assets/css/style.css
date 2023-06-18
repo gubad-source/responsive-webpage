@@ -335,6 +335,9 @@ nav {
   padding: 0.4rem;
   height: auto;
 }
+#blog1 {
+  font-family: cursive;
+}
 .slider {
   position: relative;
 }
@@ -370,4 +373,23 @@ nav {
 .slider .next {
   left: initial;
   right: 20px;
+}
+#blog2 {
+  margin-top: 10rem;
+  font-family: cursive;
+}
+#blog2 .dua-circle {
+  vertical-align: middle;
+  width: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 0 8rem 0 2rem;
+}
+p span {
+  cursor: pointer;
+}
+
+p span.active,
+p span:hover {
+  background-color: yellow;
 }

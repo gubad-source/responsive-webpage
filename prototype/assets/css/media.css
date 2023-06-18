@@ -67,4 +67,7 @@
   .slider .previous {
     top: 25%;
   }
+  #blog2 {
+    margin-top: 0;
+  }
 }

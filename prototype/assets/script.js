@@ -35,3 +35,20 @@ previousBtn.addEventListener("click", function () {
       .classList.add("active");
   }
 });
+let highligth = document.querySelector("p");
+
+let words = highligth.innerText.split(" ");
+
+words = words.map((item) => {
+  return `<span>${item}</span>`;
+});
+
+highligth.innerHTML = words.join(" ");
+
+let childiren = Array.from(highligth.children);
+
+childiren.forEach((span) => {
+  span.addEventListener("click", function () {
+    this.classList.toggle("active");
+  });
+});
