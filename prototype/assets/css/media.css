@@ -1,4 +1,22 @@
 @media only screen and (max-width: 650px) {
+  nav .navbar {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  nav .navbar ul {
+    flex-direction: column;
+    padding: 0;
+  }
+  nav .navbar ul li a {
+    text-decoration: none;
+  }
+  nav .navbar ul.disapear {
+    display: none;
+  }
+  .portrait .albom-title {
+    bottom: 10rem;
+  }
   .disapear {
     display: none;
   }
